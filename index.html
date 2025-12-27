@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio di Andrea Pirazzini - AI Specialist & Web Developer. Scopri i miei progetti, competenze e contattami per collaborazioni.">
+    <meta name="keywords" content="Andrea Pirazzini, AI Specialist, Web Developer, Portfolio, Machine Learning">
+    <meta name="author" content="Andrea Pirazzini">
+    <title>Andrea Pirazzini - AI Specialist & Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./style.css" type="text/css">
+</head>
+<body>
+    <!-- HEADER & NAVIGATION -->
+    <header id="header">
+        <nav class="navbar">
+            <div class="container">
+                <a href="#home" class="logo" aria-label="Torna alla homepage">
+                    <span class="logo-text">Andrea Pirazzini</span>
+                </a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Apri menu di navigazione">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#resume" class="nav-link">Resume</a></li>
+                    <li><a href="#contact" class="nav-link" data-i18n="nav-contact">Contatti</a></li>
+                    <li class="lang-switcher">
+                        <div class="lang-toggle-wrapper">
+                            <button class="lang-option-btn" data-lang="it">IT</button>
+                            <button class="lang-option-btn active" data-lang="en">EN</button>
+                            <div class="lang-slider"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HOME SECTION -->
+        <section id="home" class="home-section">
+            <div class="container">
+                <div class="home-content">
+                    <div class="home-image">
+                        <img src="Images/andrea-pirazzini.jpg" alt="Foto di Andrea Pirazzini, AI Specialist">
+                    </div>
+                    <div class="home-text">
+                        <h1 data-i18n="home-title">Ciao, sono Andrea Pirazzini</h1>
+                        <p class="tagline" data-i18n="home-tagline">Aspiring AI Specialist & Web Developer</p>
+                        <p class="home-description" data-i18n="home-description">
+                            Trasformo idee in soluzioni intelligenti attraverso l'intelligenza artificiale e lo sviluppo web moderno.
+                        </p>
+                        <div class="home-buttons">
+                            <a href="#contact" class="btn btn-primary" data-i18n="btn-contact">Contattami</a>
+                            <a href="#resume" class="btn btn-secondary" data-i18n="btn-resume">Vedi Resume</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="about-section-wrapper">
+            <!-- Hero Title -->
+            <div class="about-hero">
+                <div class="container">
+                    <h2 class="about-main-title" data-i18n="about-title">CHI SONO</h2>
+                </div>
+            </div>
+
+            <!-- Background Section -->
+            <div class="about-scroll-section" data-section="background">
+                <div class="container">
+                    <div class="scroll-content-grid">
+                        <div class="scroll-text-side">
+                            <div class="scroll-number sticky-number">01</div>
+                            <h3 class="scroll-title" data-i18n="about-bg-title">Background</h3>
+                            <div class="scroll-divider"></div>
+                            <div class="scroll-text">
+                                <p data-i18n="about-bg-p1">
+                                    Mi chiamo <strong>Andrea Pirazzini</strong> e sono un aspirante <strong>AI Specialist</strong>.
+                                    La mia passione per la tecnologia è nata nel mondo del <strong>gaming competitivo</strong>, dove ho imparato
+                                    l'importanza dell'ottimizzazione e del pensiero strategico.
+                                </p>
+                                <p data-i18n="about-bg-p2">
+                                    Durante anni di competizioni online, ho sviluppato una mentalità orientata al problem-solving e
+                                    all'analisi delle performance. Ogni partita era un'opportunità per ottimizzare strategie,
+                                    studiare pattern e migliorare continuamente.
+                                </p>
+                                <p data-i18n="about-bg-p3">
+                                    Oggi applico queste competenze nello sviluppo di soluzioni basate sull'intelligenza artificiale
+                                    e nella creazione di applicazioni web moderne e performanti. La stessa dedizione che mettevo
+                                    nel perfezionare le mie abilità di gioco la porto ora nel codice e nell'apprendimento delle
+                                    tecnologie più innovative.
+                                </p>
+                                <p data-i18n="about-bg-p4">
+                                    Il mio percorso autodidatta mi ha insegnato l'importanza della curiosità, della perseveranza
+                                    e della capacità di imparare autonomamente da risorse online, documentazione tecnica e
+                                    progetti pratici.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="scroll-image-side parallax-image">
+                            <img src="Images/Gemini_Generated_Image_y9e1xwy9e1xwy9e1 (1) (2).png" alt="Gaming e Tecnologia - Background del percorso di Andrea Pirazzini">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Obiettivi Section -->
+            <div class="about-scroll-section" data-section="obiettivi">
+                <div class="container">
+                    <div class="scroll-content-grid reverse">
+                        <div class="scroll-image-side parallax-image">
+                            <img src="Images/Gemini_Generated_Image_cxkx4dcxkx4dcxkx (1).png" alt="Obiettivi Professionali - Career Goals">
+                        </div>
+                        <div class="scroll-text-side">
+                            <div class="scroll-number sticky-number">02</div>
+                            <h3 class="scroll-title" data-i18n="about-goals-title">Obiettivi Professionali</h3>
+                            <div class="scroll-divider"></div>
+                            <div class="scroll-text">
+                                <p data-i18n="about-goals-p1">
+                                    Il mio obiettivo principale è diventare un <strong>programmatore AI full-stack</strong>, capace di gestire
+                                    l'intero ciclo di vita di un prodotto: dall'ideazione di servizi SaaS innovativi alla loro
+                                    implementazione e manutenzione.
+                                </p>
+                                <p data-i18n="about-goals-p2">
+                                    Voglio specializzarmi nella creazione di <strong>soluzioni intelligenti</strong> che combinano:
+                                </p>
+                                <ul class="goals-list">
+                                    <li data-i18n="about-goals-li1"><strong>Machine Learning e NLP</strong> - Per chatbot avanzati e sistemi di comprensione del linguaggio</li>
+                                    <li data-i18n="about-goals-li2"><strong>Architetture Cloud-Native</strong> - Scalabilità e affidabilità dei servizi</li>
+                                    <li data-i18n="about-goals-li3"><strong>Full-Stack Development</strong> - Dalla UI/UX fino ai database e API</li>
+                                    <li data-i18n="about-goals-li4"><strong>DevOps e CI/CD</strong> - Automazione e deployment continuo</li>
+                                </ul>
+                                <p data-i18n="about-goals-p3">
+                                    Il mio focus è sulla <strong>creazione di valore reale</strong> attraverso la tecnologia, sviluppando
+                                    prodotti che risolvono problemi concreti per le aziende e migliorano l'esperienza degli utenti.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interessi Section -->
+            <div class="about-scroll-section" data-section="interessi">
+                <div class="container">
+                    <div class="scroll-content-grid">
+                        <div class="scroll-text-side">
+                            <div class="scroll-number sticky-number">03</div>
+                            <h3 class="scroll-title" data-i18n="about-interests-title">Aree di Interesse</h3>
+                            <div class="scroll-divider"></div>
+                            <div class="scroll-text">
+                                <p data-i18n="about-interests-p1">
+                                    Le mie passioni tecnologiche spaziano attraverso diverse aree dell'informatica moderna,
+                                    con un focus particolare sull'intelligenza artificiale e lo sviluppo full-stack.
+                                </p>
+                            </div>
+                            <div class="interests-grid-detailed">
+                                <div class="interest-card">
+                                    <h4 data-i18n="interest-1-title">Machine Learning</h4>
+                                    <p data-i18n="interest-1-desc">Sviluppo di modelli predittivi e sistemi di raccomandazione</p>
+                                </div>
+                                <div class="interest-card">
+                                    <h4 data-i18n="interest-2-title">Deep Learning</h4>
+                                    <p data-i18n="interest-2-desc">Reti neurali per computer vision e NLP</p>
+                                </div>
+                                <div class="interest-card">
+                                    <h4 data-i18n="interest-3-title">Full-Stack Development</h4>
+                                    <p data-i18n="interest-3-desc">Architetture moderne con React, Node.js e Python</p>
+                                </div>
+                                <div class="interest-card">
+                                    <h4 data-i18n="interest-4-title">Cloud Computing</h4>
+                                    <p data-i18n="interest-4-desc">Deployment e scaling su piattaforme cloud</p>
+                                </div>
+                                <div class="interest-card">
+                                    <h4 data-i18n="interest-5-title">Performance Optimization</h4>
+                                    <p data-i18n="interest-5-desc">Analisi e miglioramento delle performance applicative</p>
+                                </div>
+                                <div class="interest-card">
+                                    <h4 data-i18n="interest-6-title">Open Source</h4>
+                                    <p data-i18n="interest-6-desc">Contribuzione a progetti e condivisione della conoscenza</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="scroll-image-side parallax-image">
+                            <img src="Images/Gemini_Generated_Image_ka0ev3ka0ev3ka0e (1).png" alt="Aree di Interesse - Tech Interests">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RESUME SECTION -->
+        <section id="resume" class="resume-section-wrapper">
+            <!-- Hero Title RESUME -->
+            <div class="resume-hero">
+                <div class="container">
+                    <h2 class="resume-main-title" data-i18n="resume-title">RESUME</h2>
+                </div>
+            </div>
+
+            <!-- Autodidatta Section -->
+            <div class="resume-scroll-section" data-section="autodidatta">
+                <div class="container">
+                    <div class="resume-content-centered">
+                        <div class="resume-number">01</div>
+                        <h3 class="resume-section-title" data-i18n="resume-formation-title">Percorso Formativo</h3>
+                        <div class="resume-divider"></div>
+                        <p class="resume-description" data-i18n="resume-formation-p1">
+                            Il mio approccio all'apprendimento è <strong>completamente autodidatta</strong>, basato su un mix di
+                            curiosità, passione e costante sperimentazione pratica. Ogni giorno è un'opportunità per esplorare
+                            nuove tecnologie e affinare le competenze nel mondo dell'<strong>intelligenza artificiale</strong>
+                            e dello <strong>sviluppo full-stack</strong>.
+                        </p>
+                        <p class="resume-description" data-i18n="resume-formation-p2">
+                            La mia formazione non si limita alla teoria: preferisco imparare costruendo progetti reali,
+                            affrontando sfide concrete e risolvendo problemi autentici. Questa metodologia pratica mi ha
+                            permesso di sviluppare una comprensione profonda delle tecnologie che utilizzo e una mentalità
+                            orientata alla risoluzione creativa dei problemi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Project Section -->
+            <div class="resume-scroll-section" data-section="project">
+                <div class="container">
+                    <div class="resume-content-centered">
+                        <div class="resume-number">02</div>
+                        <div class="project-badge" data-i18n="resume-project-badge">PROGETTO DI PUNTA</div>
+                        <h3 class="resume-section-title" data-i18n="resume-project-title">ThinkAIChat</h3>
+                        <p class="project-subtitle" data-i18n="resume-project-subtitle">Piattaforma di Intelligenza Artificiale Conversazionale Multi-Canale</p>
+                        <div class="resume-divider"></div>
+
+                        <div class="project-features-grid">
+                            <div class="feature-column">
+                                <h4 class="feature-title" data-i18n="resume-feature1-title">Assistente Virtuale Multi-Piattaforma</h4>
+                                <ul class="feature-list-minimal">
+                                    <li data-i18n="resume-feature1-li1">Integrazione nativa con Web, E-commerce, Instagram, WhatsApp e Facebook</li>
+                                    <li data-i18n="resume-feature1-li2">Memoria conversazionale persistente con riconoscimento utente e mantenimento del contesto</li>
+                                    <li data-i18n="resume-feature1-li3">Campagne di marketing automatizzate su WhatsApp con supporto multimedia completo</li>
+                                    <li data-i18n="resume-feature1-li4">Sistema di vendita diretta integrato su tutti i canali disponibili</li>
+                                    <li data-i18n="resume-feature1-li5">Connettori per le principali piattaforme e-commerce: Shopify, WooCommerce, Prestashop e Magento</li>
+                                    <li data-i18n="resume-feature1-li6">Gestione intelligente degli appuntamenti tramite Google Calendar con promemoria automatici</li>
+                                </ul>
+                            </div>
+
+                            <div class="feature-column">
+                                <h4 class="feature-title" data-i18n="resume-feature2-title">Centralino Virtuale con Sintesi Vocale Avanzata</h4>
+                                <ul class="feature-list-minimal">
+                                    <li data-i18n="resume-feature2-li1">Voce sintetizzata altamente naturale per conversazioni fluide e professionali</li>
+                                    <li data-i18n="resume-feature2-li2">Gestione autonoma di ordini e consultazione del catalogo prodotti</li>
+                                    <li data-i18n="resume-feature2-li3">Sistema di prenotazioni automatizzato con sincronizzazione Google Calendar</li>
+                                    <li data-i18n="resume-feature2-li4">Trascrizioni automatiche e database consultabile di tutte le conversazioni</li>
+                                    <li data-i18n="resume-feature2-li5">Dashboard analytics con metriche dettagliate e insights strategici</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="tech-stack">
+                            <h4 class="tech-stack-title" data-i18n="resume-tech-title">Tecnologie Utilizzate</h4>
+                            <div class="tech-tags-minimal">
+                                <span class="tech-tag-min">Python</span>
+                                <span class="tech-tag-min">Node.js</span>
+                                <span class="tech-tag-min">Machine Learning</span>
+                                <span class="tech-tag-min">NLP</span>
+                                <span class="tech-tag-min">Integrazione API</span>
+                                <span class="tech-tag-min">WhatsApp Business API</span>
+                                <span class="tech-tag-min">AI Vocale</span>
+                                <span class="tech-tag-min">Database NoSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills Section -->
+            <div class="resume-scroll-section" data-section="skills">
+                <div class="container">
+                    <div class="resume-content-centered">
+                        <div class="resume-number">03</div>
+                        <h3 class="resume-section-title" data-i18n="resume-skills-title">Competenze Tecniche</h3>
+                        <div class="resume-divider"></div>
+
+                        <div class="skills-columns">
+                            <div class="skill-col">
+                                <div class="skill-category-minimal">
+                                    <h4 class="skill-cat-title" data-i18n="skill-cat1-title">Intelligenza Artificiale & Machine Learning</h4>
+                                    <div class="skill-items">
+                                        <span class="skill-item">Python</span>
+                                        <span class="skill-item">TensorFlow</span>
+                                        <span class="skill-item">Elaborazione del Linguaggio Naturale</span>
+                                        <span class="skill-item">AI Conversazionale</span>
+                                    </div>
+                                </div>
+
+                                <div class="skill-category-minimal">
+                                    <h4 class="skill-cat-title" data-i18n="skill-cat2-title">E-commerce & Integrazioni</h4>
+                                    <div class="skill-items">
+                                        <span class="skill-item">API Shopify</span>
+                                        <span class="skill-item">WooCommerce</span>
+                                        <span class="skill-item">API RESTful</span>
+                                        <span class="skill-item">Webhooks</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skill-col">
+                                <div class="skill-category-minimal">
+                                    <h4 class="skill-cat-title" data-i18n="skill-cat3-title">Sviluppo Full-Stack</h4>
+                                    <div class="skill-items">
+                                        <span class="skill-item">JavaScript</span>
+                                        <span class="skill-item">Node.js</span>
+                                        <span class="skill-item">React</span>
+                                        <span class="skill-item">HTML/CSS</span>
+                                    </div>
+                                </div>
+
+                                <div class="skill-category-minimal">
+                                    <h4 class="skill-cat-title" data-i18n="skill-cat4-title">Database & Cloud Computing</h4>
+                                    <div class="skill-items">
+                                        <span class="skill-item">MongoDB</span>
+                                        <span class="skill-item">PostgreSQL</span>
+                                        <span class="skill-item">Servizi Cloud</span>
+                                        <span class="skill-item">Docker</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title" data-i18n="contact-title">Contattami</h2>
+                <p class="section-description" data-i18n="contact-description">
+                    Hai un progetto in mente o vuoi semplicemente fare due chiacchiere? Compila il form qui sotto o contattami sui social!
+                </p>
+
+                <div class="contact-content">
+                    <!-- Contact Form -->
+                    <div class="contact-form-wrapper">
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name" data-i18n="contact-name-label">Nome Completo *</label>
+                                <input
+                                    type="text"
+                                    id="name"
+                                    name="name"
+                                    required
+                                    minlength="2"
+                                    aria-required="true"
+                                    data-i18n-placeholder="contact-name-placeholder"
+                                    placeholder="Il tuo nome">
+                                <span class="error-message" id="nameError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" data-i18n="contact-email-label">Email *</label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    required
+                                    aria-required="true"
+                                    data-i18n-placeholder="contact-email-placeholder"
+                                    placeholder="tua.email@esempio.com">
+                                <span class="error-message" id="emailError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject" data-i18n="contact-subject-label">Oggetto *</label>
+                                <input
+                                    type="text"
+                                    id="subject"
+                                    name="_subject"
+                                    required
+                                    minlength="5"
+                                    aria-required="true"
+                                    data-i18n-placeholder="contact-subject-placeholder"
+                                    placeholder="Di cosa vuoi parlare?">
+                                <span class="error-message" id="subjectError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message" data-i18n="contact-message-label">Messaggio *</label>
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    required
+                                    minlength="10"
+                                    rows="5"
+                                    aria-required="true"
+                                    data-i18n-placeholder="contact-message-placeholder"
+                                    placeholder="Scrivi qui il tuo messaggio..."></textarea>
+                                <span class="error-message" id="messageError"></span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-submit" data-i18n="contact-btn-send">Invia Messaggio</button>
+                            <div class="success-message" id="successMessage" data-i18n="contact-success">
+                                Messaggio inviato con successo! Ti risponderò presto.
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Social Links -->
+                    <div class="contact-info">
+                        <h3>Seguimi sui Social</h3>
+                        <div class="social-links">
+                            <a href="mailto:pirazz1996@gmail.com" class="social-link" aria-label="Invia email">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                                <span>Email</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/andrea-pirazzini-80595511a/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Profilo LinkedIn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                                </svg>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://github.com/Piraz96" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Profilo GitHub">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                                <span>GitHub</span>
+                            </a>
+                        </div>
+
+                        <div class="contact-details">
+                            <p><strong>E-Mail:</strong> pirazz1996@gmail.com</p>
+                            <p><strong>Telefono:</strong> +39 392 790 4190</p>
+                            <p><strong>Località:</strong> Bologna, Italia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p data-i18n="footer-rights">&copy; 2025 Andrea Pirazzini. Tutti i diritti riservati.</p>
+            <p class="footer-note" data-i18n="footer-made">Realizzato con HTML, CSS e JavaScript</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>
