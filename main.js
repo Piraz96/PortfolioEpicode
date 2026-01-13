@@ -352,40 +352,7 @@ document.addEventListener('click', function(evento) {
 });
 
 // ==================== EFFETTI SCROLL SEZIONI ABOUT ====================
-// Effetto dissolvenza sul titolo "CHI SONO" durante lo scroll
-const titoloAbout = document.querySelector('.about-main-title');
-
-function aggiornaEffettiScroll() {
-    if (!titoloAbout) return;
-
-    const scrollY = window.pageYOffset;
-    const posizioneHero = document.querySelector('.about-hero');
-
-    if (posizioneHero) {
-        const inizioHero = posizioneHero.offsetTop;
-        const progressoScroll = scrollY - inizioHero;
-
-        // Calcola opacità del titolo (dissolvenza graduale)
-        if (progressoScroll > 0) {
-            const opacita = Math.max(0, 1 - progressoScroll / 500);
-            titoloAbout.style.opacity = opacita;
-        } else {
-            titoloAbout.style.opacity = 1;
-        }
-    }
-}
-
-// Ottimizza performance scroll con requestAnimationFrame
-let aggiornamentoInCorso = false;
-window.addEventListener('scroll', function() {
-    if (!aggiornamentoInCorso) {
-        window.requestAnimationFrame(function() {
-            aggiornaEffettiScroll();
-            aggiornamentoInCorso = false;
-        });
-        aggiornamentoInCorso = true;
-    }
-});
+// Effetto scroll rimosso - il titolo rimane sempre visibile
 
 // ==================== INIZIALIZZAZIONE ====================
 // Eseguito quando la pagina è completamente caricata
@@ -401,9 +368,6 @@ document.addEventListener('DOMContentLoaded', function() {
             cambiaLingua(lingua);
         });
     });
-
-    // Inizializza effetti scroll
-    aggiornaEffettiScroll();
 
     // Messaggio console
     console.log('👋 Grazie per aver visitato il mio portfolio!');

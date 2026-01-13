@@ -1239,33 +1239,34 @@ section {
 
     /* About section responsive */
     .about-hero {
-        height: 60vh;
-        position: relative;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+        padding: 0;
     }
 
     .about-main-title {
-        font-size: 56px;
+        font-size: 48px;
         letter-spacing: -2px;
     }
 
     .about-scroll-section {
-        margin-top: 0;
-        backdrop-filter: none;
-        background-color: #ffffff !important;
-    }
-
-    .about-scroll-section:first-of-type {
-        padding-top: 80px;
+        min-height: 100vh;
+        position: sticky;
+        top: 0;
+        padding: 80px 0;
+        background-color: rgba(255, 255, 255, 0.98) !important;
+        backdrop-filter: blur(10px);
     }
 
     .about-scroll-section:nth-of-type(3) {
-        background-color: #fafafa !important;
+        background-color: rgba(250, 250, 250, 0.98) !important;
     }
 
     .scroll-content-grid,
     .scroll-content-grid.reverse {
         grid-template-columns: 1fr;
-        gap: 40px;
+        gap: 32px;
     }
 
     .scroll-content-grid.reverse .scroll-text-side {
@@ -1277,30 +1278,153 @@ section {
     }
 
     .scroll-image-side {
-        height: 400px;
+        height: 300px;
         position: relative;
-        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .scroll-image-side img {
+        width: 90%;
+        height: auto;
+        max-height: 280px;
+        object-fit: contain;
     }
 
     .sticky-number {
         position: relative;
-        top: 0;
+        font-size: 14px;
+        margin-bottom: 16px;
     }
 
     .scroll-title {
-        font-size: 32px;
+        font-size: 28px;
+        margin-bottom: 20px;
     }
 
     .scroll-text p {
-        font-size: 16px;
+        font-size: 15px;
+        line-height: 1.7;
     }
 
     .interests-grid-detailed {
         grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .interest-card {
+        padding: 20px;
     }
 
     .goals-list li {
+        font-size: 14px;
+        padding: 12px 0 12px 20px;
+    }
+
+    /* Resume section responsive */
+    .resume-hero {
+        height: 100vh;
+        position: sticky;
+        top: 0;
+        padding: 0;
+    }
+
+    .resume-main-title {
+        font-size: 48px;
+        letter-spacing: -2px;
+    }
+
+    .resume-scroll-section {
+        min-height: 100vh;
+        position: sticky;
+        top: 0;
+        padding: 80px 0;
+        background-color: rgba(250, 250, 250, 0.98) !important;
+        backdrop-filter: blur(10px);
+    }
+
+    .resume-scroll-section:nth-of-type(3) {
+        background-color: rgba(255, 255, 255, 0.98) !important;
+    }
+
+    .resume-content-centered {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .resume-section-title {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .resume-description {
         font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .project-badge {
+        font-size: 10px;
+        padding: 8px 20px;
+        margin-bottom: 16px;
+    }
+
+    .project-subtitle {
+        font-size: 16px;
+    }
+
+    .project-features-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        margin: 32px 0;
+    }
+
+    .feature-column {
+        padding: 24px;
+    }
+
+    .feature-title {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .feature-list-minimal li {
+        font-size: 14px;
+        line-height: 1.7;
+        margin-bottom: 10px;
+    }
+
+    .tech-stack-title {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+
+    .tech-tags-minimal {
+        gap: 8px;
+    }
+
+    .tech-tag-min {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    .skills-columns {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .skill-category-minimal {
+        padding: 24px;
+    }
+
+    .skill-cat-title {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+
+    .skill-item {
+        font-size: 12px;
+        padding: 8px 14px;
     }
 
     .section-title {
